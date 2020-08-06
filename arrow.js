@@ -9,7 +9,7 @@
 // } //default
 
 
-// ES6 version call and declear function
+//ES6 version call and declear function
 const doubleIt = (num) => num * 2;
 const add = (x, y) => x + y;
 const result = doubleIt(5);
@@ -25,3 +25,7 @@ const doMath = (x, y) => {
 }
 const resutlDoMtah = doMath(7, 5);
 console.log(resutlDoMtah);
+
+// no paramet
+const add = () => 55;
+console.log(add());
